@@ -2,5 +2,5 @@ spring:
   application:
     name: beershop
   datasource:
-    url: jdbc:postgresql:postgres
-    username: postgres
+    url: jdbc:h2:mem:beershopdb
+    driver-class-name: org.h2.Driver
